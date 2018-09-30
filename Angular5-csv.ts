@@ -49,7 +49,7 @@ export class Angular5Csv {
     public data: any[];
 
     private _options: Options;
-    private csv = "";
+    csv = "";
 
     constructor(DataJSON: any, filename: string, options?: any) {
         let config = options || {};
